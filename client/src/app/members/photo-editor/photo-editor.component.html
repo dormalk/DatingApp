@@ -1,0 +1,26 @@
+<div class="row mb-3">
+    <input type="file" class="file-input" (change)="onFileSelected($event)" #fileUpload>
+    <div class="file-upload">     
+         <button class="btn btn-primary"
+           (click)="fileUpload.click()">
+           <i class="fa fa-image"></i> Upload File
+         </button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-2" *ngFor="let photo of member.photos">
+        <img src="{{photo.url}}" alt="{{photo.url}}" class="img-thumbnail p-1">
+        <div class="text-center">
+            <div    [ngClass]="photo.isMain ? 'btn-success active' : 'btn-outline-success'" 
+                    [disabled]="photo.isMain"
+                    class="btn btn-sm"
+                    (click)="setAsMainPhoto(photo)">Main</div>
+            <div    class="btn btn-sm btn-danger"
+                    [disabled]="photo.isMain"
+                    (click)="handleDeletePhoto(photo)">
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,56 @@
+.tab-content {
+    padding: 10px;
+}
+
+.nav-tabs > li.open .member-tabset > ,
+.nav-tabs > li:hover{
+    border-bottom: 4px solid #fbcdcf;
+}
+.member-tabset > .nav-tabs > li.open > a > i,
+.member-tabset > .nav-tabs > li:hover > a > i{
+    color: #a6a6a6;
+}
+
+.member-tabset > .nav-tabs > li.open > i > a,
+.member-tabset > .nav-tabs > li:hover > i > a{
+    color: #a6a6a6;
+}
+
+.member-tabset > .nav-tabs > li.open > .dropdown-menu,
+.member-tabset > .nav-tabs > li:hover > .dropdown-menu{
+    margin-top:0px;
+}
+
+.member-tabset > .nav-tabs > li.active {
+
+    border-bottom: 4px solid #E95420;
+    position: relative;
+}
+
+
+.member-tabset  .nav-tabs .nav-item .nav-link{
+    border: 0px;
+}
+
+
+
+.form-inline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.form-inline > .form-group {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-inline > .form-group > label {
+    margin-right: 0.5rem;
+}
+
+.float-right{
+    float:right;
+}
+
