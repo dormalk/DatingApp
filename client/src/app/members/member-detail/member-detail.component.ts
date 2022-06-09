@@ -7,6 +7,7 @@ import { Member } from 'src/app/models/member';
 import { Message } from 'src/app/models/message';
 import { MembersService } from 'src/app/services/members.service';
 import { MessageService } from 'src/app/services/message.service';
+import { PresenceService } from 'src/app/services/presence.service';
 
 @Component({
   selector: 'app-member-detail',
@@ -21,7 +22,7 @@ export class MemberDetailComponent implements OnInit {
   galleryImages: NgxGalleryImage[];
   activeTab: TabDirective;
 
-  constructor(private memberService: MembersService, 
+  constructor(public presence: PresenceService, 
       private route: ActivatedRoute,
       private messageService: MessageService) { }
   ngOnInit(): void {
