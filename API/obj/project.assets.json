@@ -48,6 +48,21 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.Certificate/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.5": {
         "type": "package",
         "dependencies": {
@@ -1522,6 +1537,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Certificate/6.0.5": {
+      "sha512": "g8d0NoPLH86eQZv1jH0e13b+v/i675r6O4AnTvpwwqdyOnhd9PWeK9Vm+SvprMMI8BX/jMN5+J3TAQH2La5p6w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.certificate/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.xml",
+        "microsoft.aspnetcore.authentication.certificate.6.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.certificate.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.5": {
@@ -4754,6 +4784,7 @@
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "CloudinaryDotNet >= 1.11.0",
+      "Microsoft.AspNetCore.Authentication.Certificate >= 6.0.5",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.5",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.5",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.5",
@@ -4765,19 +4796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dorm\\.nuget\\packages\\": {}
+    "C:\\Users\\dorma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dorm\\Desktop\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "c:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\dorm\\Desktop\\DatingApp\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\dorm\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dorm\\Desktop\\DatingApp\\API\\obj\\",
+      "projectPath": "c:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\dorma\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\dorma\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -4808,6 +4839,10 @@
           "CloudinaryDotNet": {
             "target": "Package",
             "version": "[1.11.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Certificate": {
+            "target": "Package",
+            "version": "[6.0.5, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
@@ -4862,7 +4897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dorm\\Desktop\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dorm\\Desktop\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dorm\\Desktop\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\dorm\\Desktop\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\dorm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dorm\\Desktop\\DatingApp\\API\\obj\\",
+        "projectPath": "C:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\dorma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dorma\\Desktop\\Projects\\Angular Projects\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dorma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -45,6 +45,10 @@
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.11.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Certificate": {
+              "target": "Package",
+              "version": "[6.0.5, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -99,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
