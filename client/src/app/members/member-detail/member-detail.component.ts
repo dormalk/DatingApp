@@ -85,13 +85,6 @@ export class MemberDetailComponent implements OnInit,OnDestroy {
     }
   }
 
-  loadMessages(){
-    this.messageService.getMessageThread(this.member.userName)
-    .subscribe((messages:any) => {
-      this.messages = messages;
-    })
-  }
-
   selectTab(tabId:number){
     this.memberTabs.tabs[tabId].active = true;
     window.scrollTo(0,0);
